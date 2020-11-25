@@ -1,5 +1,6 @@
 body{
     background-color: burlywood;
+    font-family: sans-serif;
 }
 h1 {
     color: orangered;
@@ -10,4 +11,4 @@ h2 {
 }
 h3 {
     color:indianred;
-}
+} 
