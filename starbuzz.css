@@ -9,6 +9,10 @@ body{
     font-size: 14px;
     font-weight: bold;   
 }
+
+h1, h3{
+    text-decoration: underline;
+}
 h1 {
     color: orangered;
     font-size: 1.5em;
@@ -21,7 +25,7 @@ h3 {
     color:indianred;
     font-size: 1.3em;
     font-weight: bolder;
-    text-decoration: underline;
+    
 } 
 h5{color: sienna;
     font-size: 0.9em;
@@ -31,4 +35,21 @@ h5{color: sienna;
     text-decoration-color: crimson;
     text-decoration-thickness: 3px;
     text-decoration-style: dotted;
+}
+img{
+    display: block;
+}
+blockquote {
+    font-size: 1.2em;
+    font-style: italic;
+    color:rgb(160, 69, 42);
+    text-decoration-style: dotted;
+    text-decoration-color: yellow;
+    text-decoration-line: underline;
+}
+ul{
+    font-family: sans-serif;
+    font-size: 1.2em;
+    list-style-type: symbols(cyclic '☝' '☯') ;
+    list-style-image: url();
 }
