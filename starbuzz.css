@@ -1,13 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+* {
+    box-sizing: border-box;
+}
 html {
     scroll-behavior: smooth;
+    
 }
 body{
     background-color: burlywood;
     font-family: sans-serif;
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 14px;
-    font-weight: bold;   
+    font-weight: bold; 
+      
 }
 
 h1, h3{
@@ -60,11 +65,12 @@ blockquote {
     text-decoration-line: underline;
     border-style: solid;
     border-color: darkorchid;
-    border-radius: 10px;
-    padding: 1em;
-    margin: 4em 0 3em 0;
+    border-radius: 20px;
+    padding: 0.5em;
+    margin: 4em auto 3em auto;
     width: 60%;
     background-color: orange;
+    
 }
 ul{
     font-family: sans-serif;
@@ -74,4 +80,7 @@ ul{
 }
 .imagine{
     text-align: center;
+}
+.primul_cuvant{
+    color: orange;
 }
