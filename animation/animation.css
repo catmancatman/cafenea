@@ -1,0 +1,23 @@
+div{
+    width: 5em;
+    height: 5em;
+    background-color:  orangered;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation animation-timing-function: ease-in-out;
+
+}
+@keyframes move {
+    25% {
+        transform: translateX(90vw) rotate: (720deg);
+    }
+    50% {
+        transform: translateY(90vw, 90vh) rotate: (1440deg);
+    }
+    75% {
+        transform: translateX(0, 90vh) rotate(2160deg);
+    }
+}
